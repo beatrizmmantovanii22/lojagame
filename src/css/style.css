@@ -1,0 +1,46 @@
+:root {
+    --color-primary: green;
+    --bg-dark: #141414;
+    --text-color: #fff;
+    --btn-color: #95ff00;
+    --header-bg: rgba(0, 0, 0, 0.8);
+    --linear-bg: linear-gradient(to right, aqua, purple);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 30px !important;
+}
+
+.logo:hover {
+    letter-spacing: 10px;
+    padding: 20px;
+    animation: acender 0.5s forwards;
+}
+
+.logo span {
+    padding: 15px;
+}
+
+.titulo {
+    background-image: linear-gradient(to right, #95ff00, purple, #95ff00);
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    background-clip: text;
+}
+
+.titulo:hover {
+    animation: acender 0.5s forwards;
+}
+
+@keyframes acender {
+    to {
+        color: var(--text-color);
+        text-shadow: 0 0 10px #32ff32, 0 0 20px #a8dfe1;
+    }
+}

@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@import "./css/style.css";
+
+
+@theme{
+    --color-fundo-azul: #090C2D;
+    --color-fundo-azul-2: #02061F;
+    --color-rosa: #F1227C;
+    --color-verde: #89D630;
+    --color-azul: #0270ED;
+    --color-amarelo: #FFC502;
+}
